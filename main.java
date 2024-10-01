@@ -5,7 +5,9 @@ public class TodoList {
     class TodoItem {
         String description;
         Date dueDate;
-
+        public TodoItem(String description) {
+            this.description = description;
+        }
         public TodoItem(String description, Date dueDate) {
             this.description = description;
             this.dueDate = dueDate;
@@ -57,4 +59,8 @@ public class TodoList {
     }
 }
 
+
 // this is a comment made in the add-todo branch
+
+//this is a comment added in the add-date branch
+
